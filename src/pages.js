@@ -18,6 +18,7 @@ import CyberpunkDescriptions from './pages/CyberpunkDescriptions.jsx'
 import CyberpunkUI from './pages/CyberpunkUI.jsx'
 import WaveButton from './pages/WaveButton.jsx'
 import MacKeyboard from './pages/MacKeyboard.jsx'
+import Infographic3D from './pages/Infographic3D.jsx'
 
 // -- Registry --
 export const pages = [
@@ -44,5 +45,11 @@ export const pages = [
     title: 'Mac Keyboard',
     description: 'Clavier Mac AZERTY interactif avec dark mode et RGB',
     component: MacKeyboard,
+  },
+  {
+    id: 'infographic-3d',
+    title: 'Infographic 3D',
+    description: 'Barres 3D interactives avec molette rotative',
+    component: Infographic3D,
   },
 ]
