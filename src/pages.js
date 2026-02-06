@@ -17,6 +17,7 @@
 import CyberpunkDescriptions from './pages/CyberpunkDescriptions.jsx'
 import CyberpunkUI from './pages/CyberpunkUI.jsx'
 import WaveButton from './pages/WaveButton.jsx'
+import MacKeyboard from './pages/MacKeyboard.jsx'
 
 // -- Registry --
 export const pages = [
@@ -37,5 +38,11 @@ export const pages = [
     title: 'Wave Button',
     description: 'Bouton neumorphique avec effet de vagues concentriques',
     component: WaveButton,
+  },
+  {
+    id: 'mac-keyboard',
+    title: 'Mac Keyboard',
+    description: 'Clavier Mac AZERTY interactif avec dark mode et RGB',
+    component: MacKeyboard,
   },
 ]
