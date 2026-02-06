@@ -20,6 +20,7 @@ import WaveButton from './pages/WaveButton.jsx'
 import MacKeyboard from './pages/MacKeyboard.jsx'
 import Infographic3D from './pages/Infographic3D.jsx'
 import InfographicSidebar from './pages/InfographicSidebar.jsx'
+import NovaSetup from './pages/NovaSetup.jsx'
 
 // -- Registry --
 export const pages = [
@@ -58,5 +59,11 @@ export const pages = [
     title: 'Infographic Sidebar',
     description: 'Sidebar avec icônes et items dépliables animés',
     component: InfographicSidebar,
+  },
+  {
+    id: 'nova-setup',
+    title: 'Nova Setup',
+    description: 'Écran phone split pink/black avec horloge et icônes bicolores',
+    component: NovaSetup,
   },
 ]
