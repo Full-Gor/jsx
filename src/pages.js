@@ -21,6 +21,8 @@ import MacKeyboard from './pages/MacKeyboard.jsx'
 import Infographic3D from './pages/Infographic3D.jsx'
 import InfographicSidebar from './pages/InfographicSidebar.jsx'
 import NovaSetup from './pages/NovaSetup.jsx'
+import RedStripeHomescreen from './pages/RedStripeHomescreen.jsx'
+import RedStripeMonitor from './pages/RedStripeMonitor.jsx'
 
 // -- Registry --
 export const pages = [
@@ -65,5 +67,17 @@ export const pages = [
     title: 'Nova Setup',
     description: 'Écran phone split pink/black avec horloge et icônes bicolores',
     component: NovaSetup,
+  },
+  {
+    id: 'red-stripe-homescreen',
+    title: 'Red Stripe Homescreen',
+    description: 'Phone mockup avec barres rouges néon et horloge',
+    component: RedStripeHomescreen,
+  },
+  {
+    id: 'red-stripe-monitor',
+    title: 'Red Stripe Monitor',
+    description: 'Phone mockup avec monitoring système et jauges circulaires',
+    component: RedStripeMonitor,
   },
 ]
