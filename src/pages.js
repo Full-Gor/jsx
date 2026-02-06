@@ -16,6 +16,7 @@
 // -- Imports --
 import CyberpunkDescriptions from './pages/CyberpunkDescriptions.jsx'
 import CyberpunkUI from './pages/CyberpunkUI.jsx'
+import WaveButton from './pages/WaveButton.jsx'
 
 // -- Registry --
 export const pages = [
@@ -30,5 +31,11 @@ export const pages = [
     title: 'Cyberpunk UI',
     description: 'Interface cyberpunk avec cadrans, grilles et scanlines',
     component: CyberpunkUI,
+  },
+  {
+    id: 'wave-button',
+    title: 'Wave Button',
+    description: 'Bouton neumorphique avec effet de vagues concentriques',
+    component: WaveButton,
   },
 ]
