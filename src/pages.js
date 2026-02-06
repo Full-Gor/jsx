@@ -14,8 +14,21 @@
  */
 
 // -- Imports --
+import CyberpunkDescriptions from './pages/CyberpunkDescriptions.jsx'
+import CyberpunkUI from './pages/CyberpunkUI.jsx'
 
 // -- Registry --
 export const pages = [
-
+  {
+    id: 'cyberpunk-descriptions',
+    title: 'Cyberpunk Descriptions',
+    description: 'HUD cyberpunk avec typewriter et panneaux animés',
+    component: CyberpunkDescriptions,
+  },
+  {
+    id: 'cyberpunk-ui',
+    title: 'Cyberpunk UI',
+    description: 'Interface cyberpunk avec cadrans, grilles et scanlines',
+    component: CyberpunkUI,
+  },
 ]
