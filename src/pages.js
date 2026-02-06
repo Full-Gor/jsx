@@ -19,6 +19,7 @@ import CyberpunkUI from './pages/CyberpunkUI.jsx'
 import WaveButton from './pages/WaveButton.jsx'
 import MacKeyboard from './pages/MacKeyboard.jsx'
 import Infographic3D from './pages/Infographic3D.jsx'
+import InfographicSidebar from './pages/InfographicSidebar.jsx'
 
 // -- Registry --
 export const pages = [
@@ -51,5 +52,11 @@ export const pages = [
     title: 'Infographic 3D',
     description: 'Barres 3D interactives avec molette rotative',
     component: Infographic3D,
+  },
+  {
+    id: 'infographic-sidebar',
+    title: 'Infographic Sidebar',
+    description: 'Sidebar avec icônes et items dépliables animés',
+    component: InfographicSidebar,
   },
 ]
