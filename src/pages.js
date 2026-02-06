@@ -23,6 +23,7 @@ import InfographicSidebar from './pages/InfographicSidebar.jsx'
 import NovaSetup from './pages/NovaSetup.jsx'
 import RedStripeHomescreen from './pages/RedStripeHomescreen.jsx'
 import RedStripeMonitor from './pages/RedStripeMonitor.jsx'
+import CyberpunkFAB3D from './pages/CyberpunkFAB3D.jsx'
 
 // -- Registry --
 export const pages = [
@@ -79,5 +80,11 @@ export const pages = [
     title: 'Red Stripe Monitor',
     description: 'Phone mockup avec monitoring système et jauges circulaires',
     component: RedStripeMonitor,
+  },
+  {
+    id: 'cyberpunk-fab-3d',
+    title: 'Cyberpunk FAB 3D',
+    description: 'Bouton flottant 3D avec menu orbital, particules et logo animé',
+    component: CyberpunkFAB3D,
   },
 ]
